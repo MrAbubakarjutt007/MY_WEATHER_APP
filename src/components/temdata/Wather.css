@@ -1,7 +1,37 @@
-.box
+.textChange
 {
-    display: flex;
-    justify-content: center;
+  color: white;
+
+}
+.container
+{
+   padding:25px ;
+   background-color:rgba(255,255,255,0.2);
+   backdrop-filter:blur(20px) ;
+   color:white;
+   border-radius:16px ;
+   border:1px solid white;
+   box-shadow:2px 2px 8px 8px  rgb(113, 119, 200) ;
+   margin-top:50% ;
+  
+}
+.inputdata
+{
     text-align: center;
-    background-color: aqua;
+    
+}
+input
+{
+    border-radius: 16px;
+    padding: 20px;
+}
+.margleft
+{
+   margin-right:50px ; 
+   
+}
+.margright
+{
+    margin-left:50px ;
+    color:orange ;
 }
